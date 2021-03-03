@@ -34,3 +34,7 @@ Now, for any cmake library, we first need to create a project that we can compil
  8. Press generate.
  9. Now, we can open the project using Visual Studio and compile.
  10. It should compile sucessfully and in your output folder that you choose, you can find the .lib in `/lib`
+
+# Epilogue
+
+Now, there was one major error in the `version_generator.py` that I needed to fix. It was mainly due to missing paranthesis in the `print` function. All I had to do was add the corresponding paranthesis and bam it worked. 
